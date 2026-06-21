@@ -396,6 +396,6 @@ def disease_prediction():
         print(f"An error occurred: {str(e)}")
         return render_template('disease.html', title=title, error="Error processing image")
 
-if __name__ == '__main__':
-    app.run(debug=True,threaded=False)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
     
