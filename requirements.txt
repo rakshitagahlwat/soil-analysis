@@ -4,3 +4,5 @@ pandas
 scikit-learn
 pillow
 tensorflow==2.15.1
+torch
+gunicorn
